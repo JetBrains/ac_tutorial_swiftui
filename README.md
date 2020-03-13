@@ -1,1 +1,2 @@
-# Project for the Create a SwiftUI application tutorial
+# iOSConferences
+The project created within the Create a SwiftUI application tutorial.
