@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62E98863807347717E5A8212 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 62E98C585D6CCB5CE05D70F8 /* .gitignore */; };
 		C1C4F13007141EC29CE85C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F50A7CB67F5CDD19348A /* AppDelegate.swift */; };
 		C1C4F46B5FB70FFCD2CBD48C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4F993925F22EBA137E751 /* Preview Assets.xcassets */; };
 		C1C4F553AFA3657A0C0B774E /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F1BE5AB36A49619DA92B /* ConferenceDetails.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62E98C585D6CCB5CE05D70F8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		C1C4F1BE5AB36A49619DA92B /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
 		C1C4F50A7CB67F5CDD19348A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C4F5CE1B94C4A903D52E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -66,21 +68,22 @@
 			children = (
 				C1C4F4791E2BB959285B47BA /* Products */,
 				C1C4FCF74412702643E83944 /* iOSConferences */,
+				62E98C585D6CCB5CE05D70F8 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
 		C1C4FCF74412702643E83944 /* iOSConferences */ = {
 			isa = PBXGroup;
 			children = (
+				C1C4F8E451206A33B4308133 /* Preview Content */,
+				C1C4FFE448B4BED42B15A293 /* Resources */,
+				C1C4FECFB9C2DF7A7A8ACE84 /* Model */,
 				C1C4F5CE1B94C4A903D52E93 /* Info.plist */,
 				C1C4FB041DD23CA9BB8DA600 /* Assets.xcassets */,
 				C1C4FF8EB5F84FD3958D23C4 /* LaunchScreen.storyboard */,
 				C1C4F50A7CB67F5CDD19348A /* AppDelegate.swift */,
 				C1C4FB097B2E8F03B17135D2 /* SceneDelegate.swift */,
 				C1C4F8C8F0D977FCC6A6741B /* ConferenceList.swift */,
-				C1C4F8E451206A33B4308133 /* Preview Content */,
-				C1C4FFE448B4BED42B15A293 /* Resources */,
-				C1C4FECFB9C2DF7A7A8ACE84 /* Model */,
 				C1C4F1BE5AB36A49619DA92B /* ConferenceDetails.swift */,
 			);
 			path = iOSConferences;
@@ -159,6 +162,7 @@
 				C1C4FD006289A2EB711F07B7 /* LaunchScreen.storyboard in Resources */,
 				C1C4F46B5FB70FFCD2CBD48C /* Preview Assets.xcassets in Resources */,
 				C1C4F99AC81544BFE4999B4D /* conferencesData.json in Resources */,
+				62E98863807347717E5A8212 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

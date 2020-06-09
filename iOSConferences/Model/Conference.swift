@@ -9,18 +9,18 @@ class Conference: Codable, Identifiable {
 
     var name: String
     var location: String
-    var start: Date?
+    var start: Date
     var end: Date?
     var link: String
 
     func textDates() -> String {
-        var result = "\(start!.dateToString()) - \(end!.dateToString())"
-        if end == self.start {
-            result = "\(start!.dateToString())"
+        var result = start.dateToString()
+        if let end = self.end {
+            result = "\(result) - \(end.dateToString())"
         }
         return result
     }
-    
+
     init() {
         name = "Conference Name"
         location = "Location"

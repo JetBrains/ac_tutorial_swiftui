@@ -16,8 +16,8 @@ struct ConferenceDetails: View {
             Text(conference.textDates()).padding(.bottom)
             LinkButton(link: conference.link).padding(.bottom)
         }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
-                .padding()
-                .navigationBarTitle(conference.name)
+         .padding()
+         .navigationBarTitle(conference.name)
     }
 }
 

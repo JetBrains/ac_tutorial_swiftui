@@ -11,7 +11,7 @@ import SwiftUI
 struct ConferenceList: View {
     var body: some View {
         NavigationView {
-            List(conferencesData) {conference in
+            List(conferencesData) { conference in
                 NavigationLink(destination: ConferenceDetails(conference: conference)) {
                     VStack(alignment: .leading) {
                         Text(conference.name).font(.headline)
