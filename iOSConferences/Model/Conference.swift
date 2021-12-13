@@ -1,12 +1,10 @@
 //
-// Created by jsmith on 27.02.20.
-// Copyright (c) 2020 JetBrains. All rights reserved.
+// Created by jetbrains on 29.10.21.
 //
 
 import Foundation
 
 class Conference: Codable, Identifiable {
-
     var name: String
     var location: String
     var start: Date
@@ -26,7 +24,6 @@ class Conference: Codable, Identifiable {
         location = "Location"
         start = Date()
         end = Date()
-        link = "https://www.test.com"
+        link = "https://www.google.com"
     }
-
 }

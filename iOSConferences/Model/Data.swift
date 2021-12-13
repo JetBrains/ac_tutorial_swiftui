@@ -1,11 +1,17 @@
 //
-// Created by jsmith on 27.02.20.
-// Copyright (c) 2020 JetBrains. All rights reserved.
+// Created by jetbrains on 29.10.21.
 //
 
 import Foundation
 
 let conferencesData: [Conference] = loadFile("conferencesData.json")
+extension Date {
+    func dateToString() -> String {
+        let format = DateFormatter()
+        format.dateFormat = "MMM dd, yyyy"
+        return format.string(from: self)
+    }
+}
 
 func loadFile<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -22,18 +28,10 @@ func loadFile<T: Decodable>(_ filename: String) -> T {
     do {
         let decoder = JSONDecoder()
         let format = DateFormatter()
-        format.dateFormat = "yyyy-mm-dd"
+        format.dateFormat = "yyyy-MM-dd"
         decoder.dateDecodingStrategy = .formatted(format)
         return try decoder.decode(T.self, from: data)
     } catch {
-        fatalError("Cannot't parse \(filename): \(T.self):\n\(error)")
-    }
-}
-
-extension Date {
-    func dateToString() -> String {
-        let format = DateFormatter()
-        format.dateFormat = "MMM dd, yyyy"
-        return format.string(from: self)
+        fatalError("Cannot parse \(filename): \(T.self):\n\(error)")
     }
 }

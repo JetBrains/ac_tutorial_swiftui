@@ -7,37 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62E98863807347717E5A8212 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 62E98C585D6CCB5CE05D70F8 /* .gitignore */; };
-		C1C4F13007141EC29CE85C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F50A7CB67F5CDD19348A /* AppDelegate.swift */; };
-		C1C4F46B5FB70FFCD2CBD48C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4F993925F22EBA137E751 /* Preview Assets.xcassets */; };
-		C1C4F553AFA3657A0C0B774E /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F1BE5AB36A49619DA92B /* ConferenceDetails.swift */; };
-		C1C4F5A998DFBD9B5BECA602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4FB041DD23CA9BB8DA600 /* Assets.xcassets */; };
-		C1C4F6A95E8A0A1DAA9BDFAD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4FFFB80EF68580977C0F3 /* Data.swift */; };
-		C1C4F964DEC3BD641D7D39C5 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4FF14961D706722ACE848 /* Conference.swift */; };
-		C1C4F99AC81544BFE4999B4D /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = C1C4FA1BD26023B581296A61 /* conferencesData.json */; };
-		C1C4F9ABE5B1B9ED43508BBD /* ConferenceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F8C8F0D977FCC6A6741B /* ConferenceList.swift */; };
-		C1C4FD006289A2EB711F07B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C4FF8EB5F84FD3958D23C4 /* LaunchScreen.storyboard */; };
-		C1C4FE1ADD52303DD485130F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4FB097B2E8F03B17135D2 /* SceneDelegate.swift */; };
+		C1C4F1E2CC42B5F5220A55A8 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F33B6CC1A8A5246CDF3E /* Conference.swift */; };
+		C1C4F2063D8CE036986BB395 /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F8535B58C7CFD2EFCC71 /* ConferenceDetails.swift */; };
+		C1C4F60E32A01D44CCB4B55D /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = C1C4FC56CD12F44190BF0C27 /* conferencesData.json */; };
+		C1C4F6F8E3035B2A7E8C8628 /* iOSConferencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4FF4B4AF54A1D278233B2 /* iOSConferencesApp.swift */; };
+		C1C4F793E99EB1710A2DFFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4F13793CB6BBC8D0067A1 /* Preview Assets.xcassets */; };
+		C1C4F8E020E32448A1E2200F /* ConferenceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4F03E89938E48FDDDF0A3 /* ConferenceList.swift */; };
+		C1C4F99B6C41B7A8DAEB2FEF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4FBE6853C30B0650AE230 /* Data.swift */; };
+		C1C4FA6FD4BB17A3EB41DF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4F177A3C76F9A87308EED /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		62E98C585D6CCB5CE05D70F8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
-		C1C4F1BE5AB36A49619DA92B /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
-		C1C4F50A7CB67F5CDD19348A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1C4F5CE1B94C4A903D52E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		C1C4F7958DE3AD7BE9387607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1C4F8C8F0D977FCC6A6741B /* ConferenceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceList.swift; sourceTree = "<group>"; };
-		C1C4F993925F22EBA137E751 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C1C4FA1BD26023B581296A61 /* conferencesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conferencesData.json; sourceTree = "<group>"; };
-		C1C4FB041DD23CA9BB8DA600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1C4FB097B2E8F03B17135D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1C4FC113C69E207B4E6D95E /* iOSConferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSConferences.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C4FF14961D706722ACE848 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
-		C1C4FFFB80EF68580977C0F3 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C1C4F03E89938E48FDDDF0A3 /* ConferenceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceList.swift; sourceTree = "<group>"; };
+		C1C4F13793CB6BBC8D0067A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1C4F177A3C76F9A87308EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C4F33B6CC1A8A5246CDF3E /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
+		C1C4F3610AE19FB368FD17D2 /* iOSConferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSConferences.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C4F4AFA0B3BACE28B1FD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C1C4F8535B58C7CFD2EFCC71 /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
+		C1C4FBE6853C30B0650AE230 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C1C4FC56CD12F44190BF0C27 /* conferencesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conferencesData.json; sourceTree = "<group>"; };
+		C1C4FF4B4AF54A1D278233B2 /* iOSConferencesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConferencesApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1C4F19075CF718B6049B94D /* Frameworks */ = {
+		C1C4F45352E59DDB8D890CAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,75 +41,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1C4F4791E2BB959285B47BA /* Products */ = {
+		C1C4F484E81045E2080DF785 /* iOSConferences */ = {
 			isa = PBXGroup;
 			children = (
-				C1C4FC113C69E207B4E6D95E /* iOSConferences.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C1C4F8E451206A33B4308133 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C1C4F993925F22EBA137E751 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C1C4FBD8D70BFAC387EDB67F = {
-			isa = PBXGroup;
-			children = (
-				C1C4F4791E2BB959285B47BA /* Products */,
-				C1C4FCF74412702643E83944 /* iOSConferences */,
-				62E98C585D6CCB5CE05D70F8 /* .gitignore */,
-			);
-			sourceTree = "<group>";
-		};
-		C1C4FCF74412702643E83944 /* iOSConferences */ = {
-			isa = PBXGroup;
-			children = (
-				C1C4F8E451206A33B4308133 /* Preview Content */,
-				C1C4FFE448B4BED42B15A293 /* Resources */,
-				C1C4FECFB9C2DF7A7A8ACE84 /* Model */,
-				C1C4F5CE1B94C4A903D52E93 /* Info.plist */,
-				C1C4FB041DD23CA9BB8DA600 /* Assets.xcassets */,
-				C1C4FF8EB5F84FD3958D23C4 /* LaunchScreen.storyboard */,
-				C1C4F50A7CB67F5CDD19348A /* AppDelegate.swift */,
-				C1C4FB097B2E8F03B17135D2 /* SceneDelegate.swift */,
-				C1C4F8C8F0D977FCC6A6741B /* ConferenceList.swift */,
-				C1C4F1BE5AB36A49619DA92B /* ConferenceDetails.swift */,
+				C1C4F4AFA0B3BACE28B1FD9A /* Info.plist */,
+				C1C4F177A3C76F9A87308EED /* Assets.xcassets */,
+				C1C4FE8EC1A31ADADDFBBD28 /* Preview Content */,
+				C1C4FF4B4AF54A1D278233B2 /* iOSConferencesApp.swift */,
+				C1C4F03E89938E48FDDDF0A3 /* ConferenceList.swift */,
+				C1C4FEC1C3479AFA7830945C /* Model */,
+				C1C4F8B3892B77FB70021802 /* Resources */,
+				C1C4F8535B58C7CFD2EFCC71 /* ConferenceDetails.swift */,
 			);
 			path = iOSConferences;
 			sourceTree = "<group>";
 		};
-		C1C4FECFB9C2DF7A7A8ACE84 /* Model */ = {
+		C1C4F8B3892B77FB70021802 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C1C4FFFB80EF68580977C0F3 /* Data.swift */,
-				C1C4FF14961D706722ACE848 /* Conference.swift */,
+				C1C4FC56CD12F44190BF0C27 /* conferencesData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1C4FC2411A344B04D13ADF2 = {
+			isa = PBXGroup;
+			children = (
+				C1C4FFB28757D001D05ADBF8 /* Products */,
+				C1C4F484E81045E2080DF785 /* iOSConferences */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C4FE8EC1A31ADADDFBBD28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1C4F13793CB6BBC8D0067A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1C4FEC1C3479AFA7830945C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1C4FBE6853C30B0650AE230 /* Data.swift */,
+				C1C4F33B6CC1A8A5246CDF3E /* Conference.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C1C4FFE448B4BED42B15A293 /* Resources */ = {
+		C1C4FFB28757D001D05ADBF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1C4FA1BD26023B581296A61 /* conferencesData.json */,
+				C1C4F3610AE19FB368FD17D2 /* iOSConferences.app */,
 			);
-			path = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1C4FA053855375F0F52F9C4 /* iOSConferences */ = {
+		C1C4F68FF5DA23215B5622CC /* iOSConferences */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1C4F522C98DDDAB1FE8DEED /* Build configuration list for PBXNativeTarget "iOSConferences" */;
+			buildConfigurationList = C1C4FF05DE1EF400252777C9 /* Build configuration list for PBXNativeTarget "iOSConferences" */;
 			buildPhases = (
-				C1C4F0C529E4175909AB9161 /* Sources */,
-				C1C4F19075CF718B6049B94D /* Frameworks */,
-				C1C4FC0A18D1970D62117DEC /* Resources */,
+				C1C4FB8D0F38E600C32D6752 /* Sources */,
+				C1C4F45352E59DDB8D890CAA /* Frameworks */,
+				C1C4F6FE03582ECA593FFE16 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -123,80 +114,61 @@
 			);
 			name = iOSConferences;
 			productName = iOSConferences;
-			productReference = C1C4FC113C69E207B4E6D95E /* iOSConferences.app */;
+			productReference = C1C4F3610AE19FB368FD17D2 /* iOSConferences.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1C4F0B4DCFEF36FC0245103 /* Project object */ = {
+		C1C4F8A5ED0AE4C3D31C780E /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-				ORGANIZATIONNAME = JetBrains;
-			};
-			buildConfigurationList = C1C4F3C8B5C1C8E714AA993B /* Build configuration list for PBXProject "iOSConferences" */;
+			buildConfigurationList = C1C4FBE55B09A4B1F2D7F9B0 /* Build configuration list for PBXProject "iOSConferences" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
-				Base,
 			);
-			mainGroup = C1C4FBD8D70BFAC387EDB67F;
-			productRefGroup = C1C4F4791E2BB959285B47BA /* Products */;
+			mainGroup = C1C4FC2411A344B04D13ADF2;
+			productRefGroup = C1C4FFB28757D001D05ADBF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1C4FA053855375F0F52F9C4 /* iOSConferences */,
+				C1C4F68FF5DA23215B5622CC /* iOSConferences */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1C4FC0A18D1970D62117DEC /* Resources */ = {
+		C1C4F6FE03582ECA593FFE16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C4F5A998DFBD9B5BECA602 /* Assets.xcassets in Resources */,
-				C1C4FD006289A2EB711F07B7 /* LaunchScreen.storyboard in Resources */,
-				C1C4F46B5FB70FFCD2CBD48C /* Preview Assets.xcassets in Resources */,
-				C1C4F99AC81544BFE4999B4D /* conferencesData.json in Resources */,
-				62E98863807347717E5A8212 /* .gitignore in Resources */,
+				C1C4FA6FD4BB17A3EB41DF5F /* Assets.xcassets in Resources */,
+				C1C4F793E99EB1710A2DFFAE /* Preview Assets.xcassets in Resources */,
+				C1C4F60E32A01D44CCB4B55D /* conferencesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1C4F0C529E4175909AB9161 /* Sources */ = {
+		C1C4FB8D0F38E600C32D6752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C4F13007141EC29CE85C97 /* AppDelegate.swift in Sources */,
-				C1C4FE1ADD52303DD485130F /* SceneDelegate.swift in Sources */,
-				C1C4F9ABE5B1B9ED43508BBD /* ConferenceList.swift in Sources */,
-				C1C4F6A95E8A0A1DAA9BDFAD /* Data.swift in Sources */,
-				C1C4F964DEC3BD641D7D39C5 /* Conference.swift in Sources */,
-				C1C4F553AFA3657A0C0B774E /* ConferenceDetails.swift in Sources */,
+				C1C4F6F8E3035B2A7E8C8628 /* iOSConferencesApp.swift in Sources */,
+				C1C4F8E020E32448A1E2200F /* ConferenceList.swift in Sources */,
+				C1C4F99B6C41B7A8DAEB2FEF /* Data.swift in Sources */,
+				C1C4F1E2CC42B5F5220A55A8 /* Conference.swift in Sources */,
+				C1C4F2063D8CE036986BB395 /* ConferenceDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C1C4FF8EB5F84FD3958D23C4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1C4F7958DE3AD7BE9387607 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C1C4F32A26465D7D4D4E08B0 /* Release */ = {
+		C1C4F4CB8EB7DA663D4F7A98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,6 +194,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -240,37 +213,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C1C4F686ADB2D45E98D2F542 /* Release */ = {
+		C1C4FC1D86FD1CDAA1952735 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSConferences/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOSConferences/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.iOSConferences;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C1C4F76C48B70A85DB554583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSConferences/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOSConferences/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.iOSConferences;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		C1C4FB9BA64488A77E1F0BDB /* Debug */ = {
+		C1C4FE09B89D405BB0797C1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,6 +266,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -329,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,28 +301,44 @@
 			};
 			name = Debug;
 		};
+		C1C4FF25703338DF795135DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSConferences/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSConferences/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.iOSConferences;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1C4F3C8B5C1C8E714AA993B /* Build configuration list for PBXProject "iOSConferences" */ = {
+		C1C4FBE55B09A4B1F2D7F9B0 /* Build configuration list for PBXProject "iOSConferences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1C4FB9BA64488A77E1F0BDB /* Debug */,
-				C1C4F32A26465D7D4D4E08B0 /* Release */,
+				C1C4FE09B89D405BB0797C1A /* Debug */,
+				C1C4F4CB8EB7DA663D4F7A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1C4F522C98DDDAB1FE8DEED /* Build configuration list for PBXNativeTarget "iOSConferences" */ = {
+		C1C4FF05DE1EF400252777C9 /* Build configuration list for PBXNativeTarget "iOSConferences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1C4F76C48B70A85DB554583 /* Debug */,
-				C1C4F686ADB2D45E98D2F542 /* Release */,
+				C1C4FC1D86FD1CDAA1952735 /* Debug */,
+				C1C4FF25703338DF795135DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1C4F0B4DCFEF36FC0245103 /* Project object */;
+	rootObject = C1C4F8A5ED0AE4C3D31C780E /* Project object */;
 }
