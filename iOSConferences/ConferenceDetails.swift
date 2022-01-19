@@ -39,9 +39,9 @@ class ConferenceDetails_Previews: PreviewProvider {
 
     #if DEBUG
     @objc class func injected() {
-        UIApplication.shared.windows.first?.rootViewController =
-                UIHostingController(rootView:
-                ConferenceDetails(conference: Conference()))
+        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        windowScene?.windows.first?.rootViewController =
+                UIHostingController(rootView: ConferenceDetails(conference: Conference()))
     }
     #endif
 }
